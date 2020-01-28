@@ -52,16 +52,17 @@
     }
   },
   "variables": {
+    "vmName": "TUR-AZS-T-WEB01",
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
-    "nicName": "myVMNic",
+    "nicName": "TUR-AZS-T-WEB01_NIC01",
     "addressPrefix": "10.0.0.0/16",
-    "subnetName": "Subnet",
+    "subnetName": "Test-Subnet",
     "subnetPrefix": "10.0.0.0/24",
-    "publicIPAddressName": "myPublicIP",
-    "vmName": "SimpleWinVM",
-    "virtualNetworkName": "MyVNET",
+    "publicIPAddressName": "TUR-AZS-T-WEB01_PIP",
+    
+    "virtualNetworkName": "Test-VNET",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
-    "networkSecurityGroupName": "default-NSG"
+    "networkSecurityGroupName": "Test-NSG"
   },
   "resources": [
     {
