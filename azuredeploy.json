@@ -1,28 +1,3 @@
-Skip to content
-Search or jump to�
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@andyturn31 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you�ll start a branch, write comments, and open a pull request.
-
-
-Azure
-/
-azure-quickstart-templates
-611
-6.4k9.2k
- Code Issues 665 Pull requests 83 Actions Projects 0 Wiki Security Insights
-azure-quickstart-templates/101-recovery-services-create-vm-and-configure-backup/azuredeploy.json
-@JohnathonMohr JohnathonMohr Adding Network Security Group to 101-recovery-services-create-vm-and-�
-1095d27 on Nov 12, 2019
-@varunbeesu@nilaydshah@JohnathonMohr@mumian@Nepomuceno@bmoore-msft
-247 lines (247 sloc)  8.7 KB
-  
 {
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
@@ -270,16 +245,3 @@ azure-quickstart-templates/101-recovery-services-create-vm-and-configure-backup/
     }
   ]
 }
-� 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-50 results found.
