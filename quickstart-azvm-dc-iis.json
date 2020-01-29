@@ -295,7 +295,7 @@
     "name": "[concat(variables('advmName'),'/', 'InstallWebServer')]",
     "location": "[parameters('location')]",
     "dependsOn": [
-        "[variables('adVMName')]"
+        "[concat('Microsoft.Compute/virtualMachines/',variables('advmName'))]"
     ],
     "properties": {
         "publisher": "Microsoft.Compute",
